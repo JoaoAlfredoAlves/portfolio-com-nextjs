@@ -101,6 +101,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.17.8":
+  version "7.17.8"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.17.8.tgz#3e56e4aff81befa55ac3ac6a0967349fd1c5bca2"
+  integrity sha512-dQpEpK0O9o6lj6oPu0gRDbbnk+4LeHlNcBpspf6Olzt3GIX4P1lWF1gS+pHLDFlaJvbR6q7jCfQ08zA4QJBnmA==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/template@^7.12.13":
   version "7.12.13"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.12.13.tgz#530265be8a2589dbb37523844c5bcb55947fb327"
@@ -3075,6 +3082,13 @@ pnp-webpack-plugin@1.6.4:
   integrity sha512-7Wjy+9E3WwLOEL30D+m8TSTF7qJJUJLONBnwQp0518siuMxUQUbgZwssaFX+QKlZkjHZcw/IpZCt/H0srrntSg==
   dependencies:
     ts-pnp "^1.1.6"
+
+polished@^4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/polished/-/polished-4.2.1.tgz#e38cdf4244b3bea63f77b0f8ab2335e22a66bd08"
+  integrity sha512-vRkUnHBwVX7kIeCzCghcLCWoDenV+sV7lkItnmTc7bb6Uzbe8ogU1FxqEW8+dXCxUX8YW8vusQ0HTk2yES7bfQ==
+  dependencies:
+    "@babel/runtime" "^7.17.8"
 
 postcss-value-parser@^4.0.2:
   version "4.1.0"
