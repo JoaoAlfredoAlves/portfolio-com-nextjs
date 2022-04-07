@@ -3,21 +3,21 @@ import styled from 'styled-components';
 export const Container = styled.section`
     width: 100%;
     display: flex;
-    gap: 2rem;
+    gap: 8rem;
     align-items: center;
     justify-content: center;
     margin-top: 5rem;
 
     > img {
-        margin-left: 6rem;
-        width: 40rem;
-        flex: 1;
-        border-radius: 200px;
+        width: 36rem;
+        flex: 3;
+        border-radius: 100px;
         transform: scaleX(-1);
+        border-bottom: 8px solid ${({ theme }) => theme.primary};
+        box-shadow: 0px 20px 20px -20px rgb(0 0 0 / 20%);
     }
 
     > div {
-        margin-right: 6rem;
         flex: 4;
     }
 

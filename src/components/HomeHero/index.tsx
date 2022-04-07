@@ -9,7 +9,7 @@ function HomeHero() {
             <div>
                 <TextContainer>
                     <h1>Olá</h1>
-                    <h2>Sou o João Alfredo</h2>
+                    <h2>Eu sou o João Alfredo</h2>
                 </TextContainer>
                 <InfosContainer>
                     <CodeItem>
