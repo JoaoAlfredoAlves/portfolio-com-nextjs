@@ -1,5 +1,5 @@
 import SectionTitle from '../SectionTitle';
-import ProjetoItem from './ProjetoItem';
+import ProjetoItem from './ProjetoItemHome';
 import { Container } from './styles';
 import Link from 'next/link';
 
